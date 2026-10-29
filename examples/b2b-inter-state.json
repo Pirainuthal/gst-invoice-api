@@ -1,0 +1,31 @@
+{
+  "invoiceNumber": "KLW/26-27/0042",
+  "invoiceDate": "2026-10-29",
+  "seller": {
+    "legalName": "Kaveri Loom Works Private Limited",
+    "tradeName": "Kaveri Looms",
+    "gstin": "33ABCDE1234F1Z7",
+    "stateCode": "33",
+    "address1": "12, Mill Road",
+    "address2": "Peelamedu",
+    "location": "Coimbatore",
+    "pincode": "641004",
+    "email": "accounts@example.com"
+  },
+  "buyer": {
+    "legalName": "Deccan Retail LLP",
+    "gstin": "29PQRSX5678K1ZU",
+    "stateCode": "29",
+    "address1": "4th Cross, Indiranagar",
+    "location": "Bengaluru",
+    "pincode": "560038"
+  },
+  "items": [
+    { "description": "Cotton shirt, half sleeve", "hsnCode": "6205", "quantity": 10, "unit": "PCS",
+      "unitPrice": 850, "discountPercent": 5, "gstRate": 5 },
+    { "description": "Linen trousers", "hsnCode": "6203", "quantity": 4, "unit": "PCS",
+      "unitPrice": 2899.5, "gstRate": 18 },
+    { "description": "Pattern design service", "hsnCode": "998391", "quantity": 1,
+      "unitPrice": 2000, "gstRate": 18 }
+  ]
+}

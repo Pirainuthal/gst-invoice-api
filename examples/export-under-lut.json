@@ -1,0 +1,32 @@
+{
+  "invoiceNumber": "KLW/EXP/0007",
+  "invoiceDate": "2026-10-29",
+  "supplyType": "EXPORT_WITHOUT_PAYMENT",
+  "seller": {
+    "legalName": "Kaveri Loom Works Private Limited",
+    "tradeName": "Kaveri Looms",
+    "gstin": "33ABCDE1234F1Z7",
+    "stateCode": "33",
+    "address1": "12, Mill Road",
+    "address2": "Peelamedu",
+    "location": "Coimbatore",
+    "pincode": "641004",
+    "email": "accounts@example.com"
+  },
+  "buyer": {
+    "legalName": "Lakeside Imports Ltd",
+    "stateCode": "96",
+    "address1": "221 Harbour Street",
+    "location": "Colombo"
+  },
+  "items": [
+    {
+      "description": "Cotton shirt, half sleeve",
+      "hsnCode": "6205",
+      "quantity": 500,
+      "unit": "PCS",
+      "unitPrice": 450,
+      "gstRate": 5
+    }
+  ]
+}
