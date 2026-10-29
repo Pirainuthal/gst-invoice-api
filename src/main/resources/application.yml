@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: gst-invoice-api
+  mvc:
+    problemdetails:
+      enabled: true
+  jackson:
+    default-property-inclusion: non_null
+    generator:
+      write-bigdecimal-as-plain: true
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: true
+
+server:
+  error:
+    include-stacktrace: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
+
+# Accepted combined GST rates (percent). Add a rate here if a notified rate is missing.
+gst:
+  rates:
+    allowed: [0, 0.1, 0.25, 1.5, 3, 5, 12, 18, 28, 40]
