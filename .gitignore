@@ -1,0 +1,28 @@
+# Build
+target/
+*.class
+*.log
+
+# Local Maven repository used for isolated builds
+.m2/
+
+# Maven wrapper download
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local output
+out/
+*.pdf
+!docs/*.pdf
